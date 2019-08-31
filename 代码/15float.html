@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				width:300px;
+				height:150px;
+				
+			}
+			#one{
+				background:#FF7F27;
+				/*float:left;*/
+			}
+			#two{
+				background:#A349A4;
+				float:left;
+			}
+			#three{
+				background:#ED1C24;
+				/*float:left;*/
+			}
+		</style>
+	</head>
+	<body>
+		<!--float可以让多个块级元素排列在同一行-->
+		<!--有float:left;属性的元素会往当前这一行最左边跑，如果跑到最左边会从上一行最右边跑出来，继续向左跑-->
+		<!--如果浮动元素的上一行是正常元素，那么这个浮动元素是跑不上去的one不浮动-->
+		<!--一个正常元素在排列位置的时候会忽略掉前面的浮动元素one和three不浮动-->
+		<div id="one"></div>
+		<div id="two"></div>
+		<div id="three"></div>
+	</body>
+</html>

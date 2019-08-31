@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				width:300px;
+				height:150px;
+				
+			}
+			#one{
+				background:#FF7F27;
+				
+			}
+			#two{
+				background:#A349A4;
+				/*相对定位*/
+				/*position:relative;*/
+				/*绝对定位*/
+				position:absolute;
+				left:100px;
+				top:50px;
+			}
+			#three{
+				background:#ED1C24;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<!--绝对定位-->
+		<!--1、元素在文档流的位置不被保留
+		2、绝对定位相对于离他最近的有定位属性的父级元素进行定位-->
+		
+		
+		<!--相对定位
+		1、相对于原来的位置进行定位
+		2、元素原来在文档流里的位置还会被保留着
+		注意：右和下是正方向，左和上是负方向-->
+		<!--相对定位理解的时候，可以理解成是完全脱离的档流的-->
+		<div id="one"></div>
+		<div id="two"></div>
+		<div id="three"></div>
+	</body>
+</html>

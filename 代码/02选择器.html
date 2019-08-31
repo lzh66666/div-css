@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*标签选择器*/
+			/*p{
+				color:red;
+				font-size:25px;
+			}*/
+			/*选择的是id为two的元素*/
+			/*ID要保证唯一性,即一个ID只能出现一次*/
+			/*#two{
+				color:red;
+				font-size:25px;
+			}*/
+			/*类选择器(class选择器)*/
+			/*选择的是class为hd的元素*/
+			/*.hd{
+				color:red;
+				font-size:25px;
+			}*/
+			/*交叉选择器*/
+			/*选择的是标签名是p并且class是hd的元素*/
+			/*交叉选择器中间一定没有空格*/
+			/*p.hd{
+				color:red;
+				font-size:25px;
+			}*/
+			/*子代选择器/父子选择器/包含选择器*/
+			/*选择的是id是box的元素里面的p标签*/
+			/*子代选择器中间有空格,空格表示父子关系*/
+			/*#box p{
+				color:red;
+				font-size:25px;
+			}*/
+			/*群组选择器*/
+			/*选择的是class是hd,或者标签名是span,或者id是two的元素*/
+			/*.hd,#box,#two{
+				color:red;
+				font-size:25px;
+			}*/
+			/*通用选择器*/
+			/*选中页面中所有的选择器*/
+			/**{
+				color:red;
+				font-size:25px;
+			}*/
+			
+		</style>
+	</head>
+	<body>
+		<span class="hd">我是class是hd的span标签</span>
+		<p>卢泽华1</p>
+		<p id="two">卢泽华2</p>
+		<p class="hd">卢泽华3</p>
+		<p class="hd">卢泽华4</p>
+		<p>卢泽华5</p>
+		<p class="hd">卢泽华6</p>
+		<p>卢泽华7</p>
+		<p>卢泽华8</p>
+		
+		<div id="box">
+			<p>哈哈哈1</p>
+			<p>哈哈哈2</p>
+			<p>哈哈哈3</p>
+			<p>哈哈哈4</p>
+		</div>
+	</body>
+</html>

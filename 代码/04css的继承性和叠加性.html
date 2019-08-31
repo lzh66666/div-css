@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div{
+				color:red;
+			}
+			/*title的优先级高于h1的*/
+			#title{
+				color:red;
+			}
+			h1{
+				color:bule;
+				font-size:100px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--css的继承性：
+		子集元素会继承父级元素身上的文字相关样式-->
+		<div>
+			<a href="">卢泽华牛!</a>
+			<p>卢泽华牛!</p>
+			<p>卢泽华牛!</p>
+			<p>卢泽华牛!</p>
+			<p>卢泽华牛!</p>
+			<p>卢泽华牛!</p>
+			<p>卢泽华牛!</p>
+			<p>卢泽华牛!</p>
+		</div>
+		<!--css的叠加性：不同的选择器给同一个元素加不同的样式，能同时生效-->
+		<h1 id="title">卢泽华</h1>
+	</body>
+</html>
