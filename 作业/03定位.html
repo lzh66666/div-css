@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin:0;
+				padding:0;
+			}
+			#boxs{
+				width:800px;
+				height:500px;
+				border:2px solid orange;
+				margin:0 auto;
+				/*如果元素的位置已经布置好了,但为了给子元素有个参考还必须加一个定位属性,那么一般是相对定位*/
+				position:relative;
+			}
+			#boxs .hd1{
+				width:300px;
+				height:150px;
+				background:red;
+				position:absolute;
+				left:100px;
+				top:50px;
+			}
+			#boxs .hd2{
+				width:330px;
+				height:200px;
+				background:green;
+				position:absolute;
+				left:300px;
+				top:150px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--每个有定位的属性都独占一行-->
+		<div id="boxs">
+			<div class="hd1"></div>
+			<div class="hd2"></div>
+		</div>
+	</body>
+</html>

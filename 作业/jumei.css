@@ -1,0 +1,91 @@
+ /*整体布局开始*/
+*{
+    padding:0;
+	margin:0;
+    }
+ /*整体布局结束*/
+
+/*顶部灰色区域开始*/
+#top{
+    width:%100;
+	height:37px;
+	background:#F5F5F5;
+	border-top:2px solid #F2F2F2;	
+    }
+#top .center{
+	width:1190px;
+	height:37px;
+	/*background:green;*/
+	margin:0 auto;
+    }
+ #top .center ul{
+ 	font-size:12px;
+ 	list-style:none;
+ 	line-height:37px;
+ 	float:left;
+ }   
+#top .center a{
+	text-decoration:none;
+	font-size:12px;
+	/*border:2px solid blue;*/
+	line-height:37px;
+	display:block;
+	float:left;
+	margin-left:30px;
+	
+}
+/*顶部灰色区域结束*/
+
+/*菜单区域开始*/
+#meau{
+	background:#1E1E1E;
+	width:%100;
+	height:37px;
+	margin:0 auto;
+	}
+#meau a{
+	color:#FFFFE8;
+	font-size:14px;
+	text-decoration:none;
+	font-weight:700;
+	line-height:37px;
+	display:block;
+	height:37px;
+	float:left;
+	text-align:center;
+	padding:0 39px;	
+	}
+#meau a:hover{
+	color:#A7A7A7;
+	}
+#meau a.index{
+	background:#ED145B;
+	}
+/*菜单区域结束*/
+
+/*产品区域开始*/
+.jumei{
+	width:1090px;
+	height:353px;
+	margin:0 auto;
+	margin-bottom:200px;
+	border:4px solid blue;
+	position:relative;
+	overflow:hidden;
+	}
+.jumei .huazhuang{
+	width:1290px;
+	height:340px;
+	position:absolute;
+	left:-190px;
+	top:0;
+	}
+.jumei .right{
+	width:462px;
+	height:333px;
+	border:1px solid red;
+	position:absolute;
+	right:17px;
+	top:17px;
+	}
+/*产品区域结束*/
